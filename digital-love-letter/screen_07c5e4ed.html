@@ -1,0 +1,611 @@
+<!DOCTYPE html><html lang="vi" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "outline": "#847375", "on-error": "#ffffff", "inverse-primary": "#fcb3be", "on-tertiary-fixed-variant": "#7c2e19", "tertiary-fixed": "#ffdbd2", "error-container": "#ffdad6", "on-primary-fixed-variant": "#6b3741", "surface": "#fff8f8", "inverse-surface": "#4c2333", "secondary-container": "#ffca98", "surface-container-lowest": "#ffffff", "surface-container-high": "#ffe1e8", "tertiary-container": "#ffaa94", "surface-container": "#ffe8ed", "surface-tint": "#874e58", "tertiary-fixed-dim": "#ffb4a1", "surface-dim": "#ffcddc", "on-secondary": "#ffffff", "on-background": "#330f1e", "secondary-fixed-dim": "#f0bd8b", "inverse-on-surface": "#ffecf0", "primary": "#874e58", "on-secondary-fixed-variant": "#623f18", "surface-container-low": "#fff0f3", "on-tertiary-fixed": "#3c0800", "on-surface-variant": "#514345", "on-tertiary-container": "#85341f", "on-secondary-container": "#7a532a", "on-surface": "#330f1e", "on-primary-container": "#733d47", "primary-container": "#f4acb7", "primary-fixed": "#ffd9de", "surface-bright": "#fff8f8", "primary-fixed-dim": "#fcb3be", "surface-variant": "#ffd9e3", "error": "#ba1a1a", "background": "#fff8f8", "outline-variant": "#d6c2c3", "on-tertiary": "#ffffff", "secondary": "#7d562d", "surface-container-highest": "#ffd9e3", "on-primary-fixed": "#360c17", "on-error-container": "#93000a", "secondary-fixed": "#ffdcbd", "tertiary": "#9a442d", "on-secondary-fixed": "#2c1600", "on-primary": "#ffffff" }, borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, spacing: { "space-md": "1.25rem", "space-sm": "0.75rem", "space-xl": "3.5rem", "space-lg": "2rem", "margin-mobile": "1.25rem", "gutter-mobile": "1rem", "space-xs": "0.375rem", "gutter": "1.5rem", "margin": "2.5rem" }, fontFamily: { "label-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Playfair Display"], "body-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-sm": ["Playfair Display"], "label-sm": ["Plus Jakarta Sans"], "display-lg": ["Playfair Display"], "body-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-md": ["Playfair Display"], "headline-lg": ["Playfair Display"], "display-lg-mobile": ["Playfair Display"] }, fontSize: { "label-md": ["12px", { "lineHeight": "16px", "fontWeight": "600" }], "headline-lg-mobile": ["30px", { "lineHeight": "40px", "fontWeight": "600" }], "body-lg": ["18px", { "lineHeight": "30px", "fontWeight": "400" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "500" }], "label-sm": ["10px", { "lineHeight": "14px", "fontWeight": "700" }], "display-lg": ["56px", { "lineHeight": "68px", "fontWeight": "600" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "20px", "fontWeight": "600" }], "headline-md": ["28px", { "lineHeight": "38px", "fontWeight": "500" }], "headline-lg": ["40px", { "lineHeight": "52px", "fontWeight": "600" }], "display-lg-mobile": ["38px", { "lineHeight": "48px", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_20px_-4px_rgba(244,172,183,0.3)] pt-safe"><div class="h-16 px-gutter-mobile flex items-center justify-between gap-space-xs"><div class="flex items-center gap-space-xs min-w-0"><div class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-primary shadow-[0_2px_8px_rgba(244,172,183,0.3)] shrink-0"><span class="material-symbols-outlined text-[18px]">favorite</span></div><div class="flex flex-col min-w-0"><h1 class="font-headline-sm text-headline-sm text-primary tracking-tight truncate leading-none">20/10 With Love</h1><div class="flex items-center gap-1.5 mt-0.5"><span class="w-1.5 h-1.5 rounded-full bg-tertiary animate-pulse"></span><span class="font-label-sm text-label-sm text-secondary truncate">Một Đời • 14 Casper &amp; Bon</span></div></div></div><div class="flex items-center gap-2 shrink-0"><button aria-label="Bật nhạc" class="w-11 h-11 flex items-center justify-center rounded-full bg-surface-container-low text-primary hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[20px]">music_note</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_2px_8px_rgba(212,163,115,0.35)]" src="https://lh3.googleusercontent.com/aida/AEtjO1VXlETiy-ClV8AKGF7-klSkp-ElIm9G63DlJzbbxsqJ8WnDSs01KoXN2quxUpP0_9iqdELZSoKN7uOdXJV2BmVxIJJpwaKxARCBq0Pc9Ja5y8RsIdBQtg1M410-izYY3CkUHKvK1COmmO_sVY6BDatImLO4fJKPppxmeL4knoa1AMCOy-RvcecgYeywHZmRLLNz3fl5q4PSI008Kw0Ky8DEdM3ZtKmhxpitKvi9CPlih2hCIxO6NUlm9PZNkJVCOG4w57VrWTRsng"></div></div></header><main class="flex flex-col relative w-full pt-16 pb-28 bg-surface min-h-screen"><div class="flex flex-col w-full relative overflow-hidden px-margin-mobile space-y-space-lg">
+<!-- Floating Ambient Particles Layer -->
+<div aria-hidden="true" class="pointer-events-none absolute inset-0 z-0 overflow-hidden" id="ambient-petals-container"></div>
+<!-- SECTION 1: HERO SECTION -->
+<section class="relative z-10 flex flex-col pt-space-sm items-center text-center">
+<!-- Tag badge -->
+<div class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-primary-fixed text-on-primary-fixed shadow-[0_4px_12px_rgba(244,172,183,0.35)]">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<span class="font-label-sm text-label-sm tracking-wider uppercase font-semibold">Vietnamese Women's Day • 20/10</span>
+</div>
+<!-- Romantic Headline -->
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-background mt-space-sm tracking-tight leading-tight">
+      Gửi Em, Cả Thế Giới <br><span class="text-primary italic">Dịu Dàng Của Anh</span> 💖
+    </h2>
+<!-- Sweet Dedication Message -->
+<div class="mt-space-sm p-space-md rounded-2xl bg-surface-container-lowest/80 backdrop-blur-md shadow-[0_8px_24px_-4px_rgba(244,172,183,0.3)] relative max-w-sm">
+<div class="absolute -top-3 left-1/2 -translate-x-1/2 w-7 h-7 rounded-full bg-secondary-fixed flex items-center justify-center shadow-md text-secondary">
+<span class="material-symbols-outlined text-[16px]">local_florist</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed pt-1">
+        Hôm nay là ngày dành riêng cho cô công chúa nhỏ đáng yêu nhất trần đời! Chúc em luôn rạng ngời như nắng sớm, tâm hồn mãi an nhiên và nụ cười ngọt lịm ấy sẽ luôn có anh ở bên để nâng niu, chở che suốt bốn mùa thương nhớ.
+      </p>
+</div>
+<!-- Mini Polaroid Preview -->
+<div class="mt-space-md w-full max-w-xs rotate-[-1.5deg] hover:rotate-0 transition-transform duration-300">
+<div class="p-3 pb-4 rounded-xl bg-surface-container-lowest shadow-[0_16px_36px_-6px_rgba(244,172,183,0.45)] flex flex-col items-center">
+<div class="w-full aspect-[4/3] rounded-lg overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc ngọt ngào của đôi mình" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1RaqDaozS_w59CNosZq-J_sMJcrwqTXHfrXKptQ8b4G1TlW8Iq4M8BXRT4bywHItRAwhVaiOcDyu-EiYPp-jp_8RDWXYKY8yOOUHEQKTSoCmk5mSf30C8Fyw6yz-e73Ccvsdw5cxvn_OKCNGbofJG_V53AWE6KJXdzpCxWu7SVMxzInz6_ynbQibjW0XuCkeRNNxzkD1vJSw_Lkoy0nTJ3chfGQWHBo7WJsUXy3SaZgVek5wF_lCAi3RToLZa4_PX4w">
+</div>
+<div class="mt-2.5 flex items-center justify-between w-full px-1">
+<span class="font-headline-sm text-[16px] text-primary italic">22.11 💕 Mãi yêu em</span>
+<span class="material-symbols-outlined text-[18px] text-tertiary" style="font-variation-settings: 'FILL' 1;">volunteer_activism</span>
+</div>
+</div>
+</div>
+<!-- Quick Touch CTAs -->
+<div class="mt-space-md flex flex-col sm:flex-row gap-space-xs w-full max-w-xs">
+<a class="flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-gradient-to-r from-primary to-tertiary text-on-primary font-label-lg text-label-lg shadow-[0_8px_20px_rgba(135,78,88,0.35)] active:scale-95 transition-transform" href="#secret-lock-section">
+<span class="material-symbols-outlined text-[20px]">lock_open</span>
+<span class="">Mở Ổ Khóa Nhận Quà 🎁</span>
+</a>
+<a class="flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-surface-container-high text-on-primary-container font-label-lg text-label-lg shadow-sm hover:bg-surface-container active:scale-95 transition-transform" href="#album-20-section">
+<span class="material-symbols-outlined text-[20px]">photo_library</span>
+<span class="">Album 20 Khoảnh Khắc 📸</span>
+</a>
+</div>
+</section>
+<!-- SECTION 2: LOVE TIMELINE & COUNTER -->
+<section class="relative z-10 w-full flex flex-col items-center">
+<div class="w-full rounded-3xl bg-surface-container-lowest/85 backdrop-blur-md p-space-md shadow-[0_10px_30px_rgba(244,172,183,0.35)] flex flex-col items-center text-center">
+<!-- Badge -->
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[15px]">favorite_border</span>
+<span class="">Hành Trình Tình Yêu Của Chúng Mình 🌸</span>
+</div>
+<!-- Date Line -->
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 font-medium">
+        Từ <span class="text-primary font-bold">22/11/2024</span> — Cùng nhau đi đến <span class="text-primary font-bold">20/10/2026</span> và mãi mãi về sau 🌸
+      </p>
+<!-- 2x2 Grid Counters -->
+<div class="grid grid-cols-2 gap-space-xs w-full mt- space-md mt-4">
+<div class="p-3.5 rounded-2xl bg-surface-container-low flex flex-col items-center shadow-sm">
+<span class="font-headline-md text-headline-md text-primary font-bold leading-none tracking-tight">696</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wide text-on-surface mt-1 font-semibold">Ngày Hạnh Phúc</span>
+<span class="font-body-sm text-[11px] text-outline leading-tight mt-0.5">Bên nhau mỗi ngày</span>
+</div>
+<div class="p-3.5 rounded-2xl bg-surface-container-low flex flex-col items-center shadow-sm">
+<span class="font-headline-md text-headline-md text-secondary font-bold leading-none tracking-tight" id="live-hours">20</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wide text-on-surface mt-1 font-semibold">Giờ Ngọt Ngào</span>
+<span class="font-body-sm text-[11px] text-outline leading-tight mt-0.5">Từng nhịp tim yêu</span>
+</div>
+<div class="p-3.5 rounded-2xl bg-surface-container-low flex flex-col items-center shadow-sm">
+<span class="font-headline-md text-headline-md text-tertiary font-bold leading-none tracking-tight" id="live-minutes">19</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wide text-on-surface mt-1 font-semibold">Phút Bình Yên</span>
+<span class="font-body-sm text-[11px] text-outline leading-tight mt-0.5">Nhớ em từng phút</span>
+</div>
+<div class="p-3.5 rounded-2xl bg-surface-container-low flex flex-col items-center shadow-sm">
+<span class="font-headline-md text-headline-md text-primary font-bold leading-none tracking-tight" id="live-seconds">42</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wide text-on-surface mt-1 font-semibold">Giây Đong Đầy</span>
+<span class="font-body-sm text-[11px] text-outline leading-tight mt-0.5">Khoảnh khắc vô giá</span>
+</div>
+</div>
+<!-- Love Journey Progress Bar -->
+<div class="w-full mt-space-md">
+<div class="flex justify-between items-center text-label-sm font-label-sm text-on-surface-variant mb-1.5 px-1">
+<span class="flex items-center gap-1 font-semibold text-secondary">
+<span class="material-symbols-outlined text-[14px]">flag</span> 22/11/2024
+          </span>
+<span class="text-primary font-semibold">100% Yêu Thương</span>
+<span class="flex items-center gap-1 font-semibold text-primary">
+            20/10/2026 <span class="material-symbols-outlined text-[14px]">all_inclusive</span>
+</span>
+</div>
+<div class="w-full h-3 rounded-full bg-surface-container-highest overflow-hidden p-0.5">
+<div class="h-full rounded-full bg-gradient-to-r from-secondary to-primary w-[88%] relative">
+<span class="absolute right-0 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-white shadow-sm"></span>
+</div>
+</div>
+</div>
+<!-- Quote -->
+<p class="font-headline-sm italic text-[14px] text-outline mt-3 px-2 leading-snug">
+        “Trăm năm hữu hạn, nhưng chặng đường của đôi ta sẽ luôn đong đầy từng phút giây ngọt ngào nhất.”
+      </p>
+</div>
+</section>
+<!-- SECTION 3: SECRET LOVE LOCK -->
+<section class="relative z-10 w-full scroll-mt-20" id="secret-lock-section">
+<div class="w-full rounded-3xl bg-surface-container-low p-space-md shadow-[0_12px_32px_rgba(244,172,183,0.3)] flex flex-col items-center text-center">
+<!-- Pulsating Romantic Lock Icon -->
+<div class="relative w-16 h-16 rounded-full bg-surface-container-lowest flex items-center justify-center shadow-[0_8px_20px_rgba(212,163,115,0.4)]">
+<div class="absolute inset-0 rounded-full bg-primary/20 animate-ping opacity-75"></div>
+<span class="material-symbols-outlined text-[32px] text-primary" id="lock-icon" style="font-variation-settings: 'FILL' 1;">lock</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-background mt-3 font-semibold">Chiếc Ổ Khóa Bí Mật</h3>
+<p class="font-body-sm text-body-sm text-secondary mt-1 font-medium">Gợi ý: Mật mã là ngày định mệnh thuộc về nhau: <span class="font-bold underline underline-offset-2">22/11</span> 🔑</p>
+<!-- 4 PIN Digit circles -->
+<div class="flex items-center justify-center gap-3 mt-4" id="pin-display">
+<div class="w-12 h-14 rounded-2xl bg-surface-container-lowest flex items-center justify-center font-headline-md text-headline-md text-primary font-bold shadow-sm transition-all" id="pin-0">·</div>
+<div class="w-12 h-14 rounded-2xl bg-surface-container-lowest flex items-center justify-center font-headline-md text-headline-md text-primary font-bold shadow-sm transition-all" id="pin-1">·</div>
+<span class="font-headline-sm text-outline-variant">/</span>
+<div class="w-12 h-14 rounded-2xl bg-surface-container-lowest flex items-center justify-center font-headline-md text-headline-md text-primary font-bold shadow-sm transition-all" id="pin-2">·</div>
+<div class="w-12 h-14 rounded-2xl bg-surface-container-lowest flex items-center justify-center font-headline-md text-headline-md text-primary font-bold shadow-sm transition-all" id="pin-3">·</div>
+</div>
+<!-- Quick Fill Button -->
+<button class="mt-4 px-4 py-2.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-md text-label-md flex items-center gap-1.5 shadow-sm active:scale-95 transition-transform" id="quick-fill-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">magic_button</span>
+<span class="">🌸 Bấm để điền nhanh 22/11 💕</span>
+</button>
+<!-- Soft Numeric Keypad -->
+<div class="grid grid-cols-3 gap-2.5 w-full max-w-[280px] mt-4">
+<button class="keypad-btn h-12 rounded-2xl bg-surface-container-lowest font-headline-sm text-headline-sm text-on-surface shadow-sm active:bg-primary-container active:text-on-primary-container transition-colors" data-val="1">1</button>
+<button class="keypad-btn h-12 rounded-2xl bg-surface-container-lowest font-headline-sm text-headline-sm text-on-surface shadow-sm active:bg-primary-container active:text-on-primary-container transition-colors" data-val="2">2</button>
+<button class="keypad-btn h-12 rounded-2xl bg-surface-container-lowest font-headline-sm text-headline-sm text-on-surface shadow-sm active:bg-primary-container active:text-on-primary-container transition-colors" data-val="3">3</button>
+<button class="keypad-btn h-12 rounded-2xl bg-surface-container-lowest font-headline-sm text-headline-sm text-on-surface shadow-sm active:bg-primary-container active:text-on-primary-container transition-colors" data-val="4">4</button>
+<button class="keypad-btn h-12 rounded-2xl bg-surface-container-lowest font-headline-sm text-headline-sm text-on-surface shadow-sm active:bg-primary-container active:text-on-primary-container transition-colors" data-val="5">5</button>
+<button class="keypad-btn h-12 rounded-2xl bg-surface-container-lowest font-headline-sm text-headline-sm text-on-surface shadow-sm active:bg-primary-container active:text-on-primary-container transition-colors" data-val="6">6</button>
+<button class="keypad-btn h-12 rounded-2xl bg-surface-container-lowest font-headline-sm text-headline-sm text-on-surface shadow-sm active:bg-primary-container active:text-on-primary-container transition-colors" data-val="7">7</button>
+<button class="keypad-btn h-12 rounded-2xl bg-surface-container-lowest font-headline-sm text-headline-sm text-on-surface shadow-sm active:bg-primary-container active:text-on-primary-container transition-colors" data-val="8">8</button>
+<button class="keypad-btn h-12 rounded-2xl bg-surface-container-lowest font-headline-sm text-headline-sm text-on-surface shadow-sm active:bg-primary-container active:text-on-primary-container transition-colors" data-val="9">9</button>
+<button class="keypad-btn h-12 rounded-2xl bg-surface-container-lowest flex items-center justify-center text-outline shadow-sm active:bg-surface-container transition-colors" data-action="backspace">
+<span class="material-symbols-outlined text-[20px]">backspace</span>
+</button>
+<button class="keypad-btn h-12 rounded-2xl bg-surface-container-lowest font-headline-sm text-headline-sm text-on-surface shadow-sm active:bg-primary-container active:text-on-primary-container transition-colors" data-val="0">0</button>
+<button class="keypad-btn h-12 rounded-2xl bg-primary text-on-primary flex items-center justify-center font-label-md text-label-md shadow-md active:scale-95 transition-transform" data-action="unlock">
+<span class="material-symbols-outlined text-[20px]">key</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-error mt-2.5 min-h-[20px] transition-opacity opacity-0" id="lock-feedback"></p>
+</div>
+</section>
+<!-- Interactive Gift Selection Modal / Drawer -->
+<div class="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-inverse-surface/60 backdrop-blur-sm opacity-0 pointer-events-none transition-all duration-300" id="gift-modal">
+<div class="w-full max-w-md max-h-[85vh] overflow-y-auto rounded-t-3xl sm:rounded-3xl bg-surface p-space-md shadow-2xl flex flex-col transform translate-y-full transition-transform duration-300" id="gift-drawer-content">
+<div class="flex items-center justify-between pb-3">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">redeem</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold leading-none">Kho Quà Tặng 20/10</h4>
+<span class="font-label-sm text-label-sm text-secondary">Em hãy chọn 1 đặc quyền ngọt ngào nhất nha!</span>
+</div>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant" id="close-modal-btn">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- 6 Romantic Coupons -->
+<div class="grid grid-cols-1 gap-2.5 mt-2">
+<div class="gift-coupon p-3.5 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md cursor-pointer transition-all flex items-start gap-3" data-gift="Một Ngày Làm Nữ Hoàng">
+<span class="text-2xl shrink-0">👑</span>
+<div class="flex-1 min-w-0">
+<h5 class="font-label-lg text-label-lg text-on-surface font-bold">Một Ngày Làm Nữ Hoàng</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Anh sẽ nghe lời và chiều chuộng mọi mong muốn của em suốt 24h.</p>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px] gift-check">radio_button_unchecked</span>
+</div>
+<div class="gift-coupon p-3.5 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md cursor-pointer transition-all flex items-start gap-3" data-gift="Bữa Tối Lãng Mạn">
+<span class="text-2xl shrink-0">🕯️</span>
+<div class="flex-1 min-w-0">
+<h5 class="font-label-lg text-label-lg text-on-surface font-bold">Bữa Tối Lãng Mạn</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Dưới ánh nến lung linh, hoa hồng ngát hương và món em thích nhất.</p>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px] gift-check">radio_button_unchecked</span>
+</div>
+<div class="gift-coupon p-3.5 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md cursor-pointer transition-all flex items-start gap-3" data-gift="Trà Sữa &amp; Đi Ăn Đêm">
+<span class="text-2xl shrink-0">🧋</span>
+<div class="flex-1 min-w-0">
+<h5 class="font-label-lg text-label-lg text-on-surface font-bold">Trà Sữa &amp; Đi Ăn Đêm Không Giới Hạn</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cứ việc đói bụng lúc nửa đêm, anh đưa đi ăn sập cả phố phường!</p>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px] gift-check">radio_button_unchecked</span>
+</div>
+<div class="gift-coupon p-3.5 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md cursor-pointer transition-all flex items-start gap-3" data-gift="Vé Miễn Phạt 100%">
+<span class="text-2xl shrink-0">🛡️</span>
+<div class="flex-1 min-w-0">
+<h5 class="font-label-lg text-label-lg text-on-surface font-bold">Vé Miễn Phạt 100%</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Xóa bỏ hoàn toàn mọi lỗi lầm, cứ giận là được anh dỗ ngọt ngào ngay.</p>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px] gift-check">radio_button_unchecked</span>
+</div>
+<div class="gift-coupon p-3.5 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md cursor-pointer transition-all flex items-start gap-3" data-gift="Chuyến Đi Trốn Ngoại Ô">
+<span class="text-2xl shrink-0">🚗</span>
+<div class="flex-1 min-w-0">
+<h5 class="font-label-lg text-label-lg text-on-surface font-bold">Chuyến Đi Trốn Ngoại Ô 2 Đứa</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cùng nhau vi vu đón gió, ngắm hoàng hôn thanh bình không âu lo.</p>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px] gift-check">radio_button_unchecked</span>
+</div>
+<div class="gift-coupon p-3.5 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md cursor-pointer transition-all flex items-start gap-3" data-gift="1 Điều Ước Tùy Ý">
+<span class="text-2xl shrink-0">✨</span>
+<div class="flex-1 min-w-0">
+<h5 class="font-label-lg text-label-lg text-on-surface font-bold">1 Điều Ước Tùy Ý</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Bất cứ điều gì em mong muốn, thần đèn người yêu lập tức thực hiện!</p>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px] gift-check">radio_button_unchecked</span>
+</div>
+</div>
+<!-- Claim Button -->
+<button class="mt-4 w-full py-3.5 rounded-full bg-outline/40 text-on-surface font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow-sm transition-all cursor-not-allowed" disabled="" id="claim-gift-btn">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+<span class="">Xác Nhận Nhận Món Quà Này 💕</span>
+</button>
+<!-- Sweet confirmation note -->
+<div class="hidden mt-3 p-3 rounded-2xl bg-primary-fixed text-on-primary-fixed text-center font-body-sm text-body-sm font-semibold shadow-sm animate-pulse" id="gift-alert-message">
+        Món quà tình cảm đã được kích hoạt vĩnh viễn và gửi đến trái tim của anh! 💖
+      </div>
+</div>
+</div>
+<!-- SECTION 4: ALBUM 20 KHOẢNH KHẮC -->
+<section class="relative z-10 w-full scroll-mt-20" id="album-20-section">
+<div class="text-center mb-space-sm">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[15px]">photo_album</span>
+<span class="">Album Kỷ Niệm Yêu Thương</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-background mt-1.5 font-semibold">
+        Khoảnh Khắc Của Chúng Mình
+      </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">20 khoảnh khắc đong đầy tình cảm</p>
+</div>
+<!-- 2-Column Mobile Masonry/Grid of 20 Photos -->
+<div class="grid grid-cols-2 gap-2.5 w-full">
+<!-- Photo 1 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 1" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZIk5e76IS-R8Tm3Iq0amKPEnBQvObLOr-FwpF_afapB4_G5vzGQUKBJK4misbinHC4wpi_yx6E0BjttGE3Ggn1eb1fDc0PQDmBXxT-9g7W0PVck1xeEGULIbPgKSaee6ZZt5-gUC2vilQLz3Pdi80oLk74T_2p-svr1AHXSBOdYa5T3FUdDpKARqiG5RPVWYDj_TL3GZlazotEUAbGjhsS2nIiPBUEzHJF5cjUn_-NcCDGVFSK1gATUnpkV5IvMmMnw">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Dưới tán ô mát mùa hạ 🌸</p>
+</div>
+<!-- Photo 2 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 2" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDm8kLL06yPVTkLEwu6_KYFI09wO7FprjDABWqjNVUEWSiXdShUong_iqlfki8J8xxW8q5WR-MJMMLzSvjyNQJf8s7SDJV3BlX0KIfV1LAHttFA3VPstSCMQ85PW2WQzugmI44sEHfPOGSgokjKv5A0TVlInqUk9am_w_gw-zLt-6K_G1xn2ObVCrtiNnS83aRoAgEQBn4wJdIRP57kji9VclbxMhH0PY3yqSb2JuYkIGiNJXrVOy1x5BInEQ9aIEwIlg">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Hai chiếc bạn nhỏ đáng yêu nhất 🐻</p>
+</div>
+<!-- Photo 3 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 3" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtsoJ2u3OpdGUPWe2dUPjnk7-DrRv3hczKZ69HxIA1p2PpAnwsCPbT_Y2GToVvDCm-CHSffxUKLSv90G-NDjv_30Lz5iOkWr3Eyt7_0UA-02wwMF9ctZDRQc268max31ZaQ8G_F5exI16HWhUTi5D_uy73iIrRHWbvCJRWPwjUijCs6mmy85F0_BF68vxKmzwwA8IxMIRPmWg5f5Gwn-Dfhec9Fu0nLEReRa-ZSMo1VJdj8mVp941pM6frq8QBTkQK3Q">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Chiếc ôm sưởi ấm mùa đông ❄️</p>
+</div>
+<!-- Photo 4 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 4" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1RaqDaozS_w59CNosZq-J_sMJcrwqTXHfrXKptQ8b4G1TlW8Iq4M8BXRT4bywHItRAwhVaiOcDyu-EiYPp-jp_8RDWXYKY8yOOUHEQKTSoCmk5mSf30C8Fyw6yz-e73Ccvsdw5cxvn_OKCNGbofJG_V53AWE6KJXdzpCxWu7SVMxzInz6_ynbQibjW0XuCkeRNNxzkD1vJSw_Lkoy0nTJ3chfGQWHBo7WJsUXy3SaZgVek5wF_lCAi3RToLZa4_PX4w">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Nụ hôn thơm má thay lời yêu 💖</p>
+</div>
+<!-- Photo 5 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 5" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDP2m3ad7jJneeZMYRl4IIhhYFkWEOd5LwTKsTHKhaYhURC4go3ezxgevdWoSy1-A3LF_T7hyIFeN53Is5gKZv3AypR3INUT3z-qoUeKHgLKc94j-LLlCiqV-OnFHj1lPnWSWsFBDJmzXSANIJh-PIXvyQmPytbFFDUR4xZheI_zV1_MjJFwahlinT8DtemrvOFzhnO49FIRkOqhcHGALkvN5tiEAceO4rkhGqP-sjxCD9bx9FCnMg-RLuj5ARbMQR3FA">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Nụ cười rạng ngời hơn hoa 🌷</p>
+</div>
+<!-- Photo 6 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 6" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvlgtkqBSerA-su8yrRxU6JGBVwHWjEIZ6lHpG_tWcPulcgEBRgBrBVObtyYBiAPbmYZASK__2S0NTumvdKQcCeap8EbOkR1d0zCOif3Mfw23CNpgMi1PrtHSWQ-oBR_3WVUz50EUkH5_y0qXCbVi09FoTNPRGpYdkIOIPK6dBU6_DrJHqLL6HL9p_gHdcuNNs2JbW3otKzR51Kec1dRf--h0qrZ9HZCTAHQdp9G3jN3HAS2XQx3aukJ7s6gOsBNbjaw">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Nụ cười của em là cả thế giới ✨</p>
+</div>
+<!-- Photo 7 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 7" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQdFzjVinI3_zN6sXxpRFRHJY9hzycCKvw0PuofytRPjuavDAl9mpgkMNtUAPgf4ATHWFZVTDYOxsQWiMLVDIiC3YgmpOasQSyxjDBD-1Dt8ihfDHg1ln6kAA3-nuWZn3CKi_rXoLl1fuH_FEwTxVQhEJk1rXKdjUctH1WPo76lGl2LfgnXRSSs5lRhb84nDeQf1A5aUls9kDfpLethM3yEA88573XiPdxmQIeuQCq_Il5k5Q0TISr0886WrQUPaCgZQ">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Bắt giam trái tim anh lại nhé! 👮‍♂️</p>
+</div>
+<!-- Photo 8 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 8" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsUFtLNJ91ipSXrKBKLF-wX0L9Lponvvdhi2a52y6P1YsGJe5sUiW7Ih2BWdTcJSXWTwGebfuMh57KAfIJSFz4tg7pbmf-rSI8XrM9wrq3tsX4cgAdOC2g0aS1aDXXUomTLHbsC6cRSRAfDm-gIu_i2w3rAomfzCkrr2jvnTtLBDo7kSs2XbM-B5anc8TE1Ta8nHAog57vaGfIn_a5e0-HY4tbFok2ZMuWYXpmCRUS8aRNZlJMgeABWcFDxyanbmI8Og">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Nghiêm trang nhưng vẫn đáng yêu 👮‍♀️</p>
+</div>
+<!-- Photo 9 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 9" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARO4g8s6ZaN80d5CNIu_RbP12tazQ7Jpt3aLGQkiJW-IqgNX32goorHw72OpsTC-VGQJDOBP09QVRP3ECb9TpmoLbq8PXW0KJ2vsOmwJ38UlUgAvEDy7FQdkz1s1OIPTUoZzsEKfcVONlZ63qUpXPqvKoqbsHGqDHJYJnkNpMj50xlhF0_yU_J4ZKCg2paJIYBp-LQ1MANlgXjSsVWkaM195ozJsozfQTgx0yWlqQFCTkdcs3RxjvJC4NPqKmtt_EqGw">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Đi cùng nhau qua những mùa yêu 🌿</p>
+</div>
+<!-- Photo 10 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 10" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDt44SjnVifJMllWKcm61mr7xJZLg83y2n1StbyVYvaQ3n_VRuBpzZlhZkPAaiuV3vraWTE1RYZfftRXRpLPTjMPRN1dt4uLfb7SrDwxUiuRt3CK9VBwGbcp1n7nXDiTuVw97m7iN1sWoPm6KQrt3yB43UPE7VPy-fVCFFSChIctGVz_xcfsW3UL2Gpk9apqstOAOvIgsPw19Y_vkuBAMmLrnKkYLqP8bNBAtl1CQWq6MlM1IQ4b1wPGFdJq9t2GIvfXw">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Gương mặt ngố quen thuộc 🪞</p>
+</div>
+<!-- Photo 11 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 11" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxLO2VK2WoZRNP0uGsLxYupkoAxJQ9EYf9lrEJVDusXVXx-MxONjGyEiZeP71ilgC2ShMwDBFbrZJ_rNEBCaKybAYteUv70ISa6BBOFEKnqNzmDXleE1MV5G7wbrGahwFu8l6V7jHqnw-0DM-rl5WLo006h95MY1zWtIa-BPG8OPpjQzhcECp4GJxXjG1AtGv0fcVxc3uDVgxD5YKn20SDb5keXDnH01YrtNDkECvI5x_XUfGnu8WOHS2yim5nwO6EJQ">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Hai chiếc mực lem lỉnh 🐙</p>
+</div>
+<!-- Photo 12 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 12" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_pV2XwntnqqGyvx8KDsoKTeQCl_q9top1DOQo5snX_BssDfO1kYeqCp9t8tpwMuFoHoAyp4lVIJTPrVP0xkx-NC70y0pMXKKERjWTDQDv1sQeqhZXZV0h9BJZuGCifSfmsSqKXvvL-VrV0hrqjco-VMOOJwY1XM2CBSTPRBCL-XCy7y5alS6qje59qdaMrO4iw22TF8FHMPn4eaInTQj_s4d5rihi7VXYAu2heUi2vObjjxtxgkWAXIA2GYg-1vyyVg">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Góc nào em cũng xinh xắn nhất 💕</p>
+</div>
+<!-- Photo 13 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 13" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYBv3lFcgxySe-y2KLzGb2phsIzofMIHRzZlGYN7WhqTg1n72O9WGc5V0se___ZFmA-6HLsZiEECo-vd-zhcdB7p-JgWIVgHkGJtLmOjsB0FUGemY3eugLFfgqrdYHpvEfz-PYlmri92hUddEE40YTQNEsN3UjxWG-DFla1Vqe6CkBwI-r5AIBROKPAqSRvwOuoV0LqEBAPG-fTv42pivLqjp0XReuIPwrbcQ3Wy5PJX_YTR29GNOnejljRpA0ZHZWEg">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Cười thả ga mỗi khi bên nhau 👓</p>
+</div>
+<!-- Photo 14 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 14" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAmd736cAxlkxscnQ7SJkfa2PkU3tUFO7A5aOn3U2mrOj3LTdpNIMTYzTaP57vmbleJFJ-PenG97qT5adkmKljsgCMQRqV00rs9mXt3jaTd0qDpqDIqET5VGgNGYKPr9Jd9rFutPg9UlkdJMbdI9ZNPV6al5ZO5suGtIdEls-wvjlheBQoPuNUvGTPyHMwDkB4zHQYFXp2IheEfP77SpQa4BtoqO_XhZMb9Eokv0AxpzFhARZ0j1ecE1nTC0POmbkC2w">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Đôi mắt long lanh chứa cả trời sao ✨</p>
+</div>
+<!-- Photo 15 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 15" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCH4mJ1skj5l33tJ81KrYKCsxXIUg0SeTxwKCx2W38CnsQ43nAUnBP5zxKuVrlsPp58n-PhQPIx3NanAMiW_ypNc5v2T7lVWv-6OnHLz9V_zcc8osmxZ-7B52uT3aEie77kFWx6SYA0hGJm9L-nRu-ImNRG1RiZr5AxIl-jfefR8iG0TBiGDPAXu7biJMbDqNynQL6jHil5jnF5DLdpXcxw6diHezfuZ9ZlJmtFgfpXgSZ3V2hcxM6DrfhnAKJjW_50mg">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Chỉ muốn cắn vào má em một cái 🥪</p>
+</div>
+<!-- Photo 16 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 16" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUO1iYJbstRFpC8mRheDbPkji53E1EhZgTxA62xMwYqY9hdrIQ3raua0fdlFSW5JPhxGRHUPhg8Trtafs14mhcNjiZEXs8kbDkNE_x9SAkusdmscXgQGUuDp-eOlACRB97RBTSavRrPmxVRkS_zNc5Fx7viDqu1V9rs8xQiRvr9smNE879l46hvAb7PqQrzjNSWNfjc40nPhFkCoXqBDvuHsp1pB_3bxGQAJ4-zQLea8jLHeb775DzRNgMLrEaviy6Fg">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Cùng nhau đắp mặt nạ xinh đẹp 🧖</p>
+</div>
+<!-- Photo 17 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 17" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAwFXioAvWPvd3jL09NZorg0BjR8hHqK4IbwNQxaMYRVY4c399lEIcGZRfxg9WQawDA33CR4AuTpLttBSvIQEeOyhox_Esme7UQPJrxGb6eMDU7TQunaaBrjiKeB7DFTaAyB3_LmXYW82q33ky6csDbwbC1AB39NOT1TOtyAMaSiv82ASrya4g2o6PPra-hV-wouTZELX2rFPHHqZVmh7zCGdbzjmo3-w8GpD7KInvH4_fuZjjMJJllV-Etcq36GHVAg">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Cười đau cả bụng khi ở bên em 😂</p>
+</div>
+<!-- Photo 18 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 18" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZLMBURWSHg-oO8wP86W5MIW0NDEOvIANDK0yB6ooPbIOudII8ZtGOzdLJiIZiFwiai79fy08SRbt5LS1v7qnCgmi-Q875VcTB0YWgVCkYJqxpi-0gav4qm1gEYwECiO_r0G_FFygYafP3k3uBh9mtf56qMN1E64kf7l-xQ1YGR91_6jd4voEpSRHHQWfatHL2RbtMHLGcgFChUMF3oFzFoz4WIaQAx16BVLswZEmY4UJIwMS_DL0pUYkxXqQ7A-W79w">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Dưới ánh đèn đường nắm tay em 🌙</p>
+</div>
+<!-- Photo 19 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 19" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6VCb8pFLFMo2-7x6AakyO0MgzZV-rS6fIqBYAu8g4pzMoyO8snPDT4QKsGuo7kDlQVNVJgq4bcw2ehf9IcbB-UlvZdjkbkH2ZkhEMqWSiCJgZh2rP8mA3hwSHVwJ2TotohNiGtrWiU7RRj_KigClqpwN0ibqpzmb6cZWW5AAfNp5I-ICb4d2MDg3X-fNx-KVAkpQJunyF0aF_xT6XNVK9nh_i5ZBfzBRCckrzf-xJUlcvb5bCTQOqy2qAZ0YwnqxrxA">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Mặt nạ sủi bọt siêu đáng yêu 🫧</p>
+</div>
+<!-- Photo 20 -->
+<div class="flex flex-col p-2 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img alt="Khoảnh khắc 20" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMilYjy3qoYrG6SZry42ZBTgW_Jnst_QmlOyMVK_b3m4vOJlLZ30tBkZW8IWI3-yClGgGQSrT7_iJ6teqhwKWvNo7_vmvC7sY8_IgTKly_y7QN8r2VOLrHoZR8lYwLiQobtRTABrV2i5M0fVtDjDXRnnidoi13H4InQ9Pjh492MnvSR2OfCSpWlthfeF0id99ykl2wKAHlNBlzF4AvGwhYG4sskStB_yUFgOfg4G91K6F-OZwdw7VnCdu4p8cYIwha9A">
+</div>
+<p class="font-label-sm text-label-sm text-on-surface mt-2 text-center line-clamp-1">Mỗi góc phố đều in dấu chân đôi ta ☕</p>
+</div>
+</div>
+</section>
+<!-- SECTION 5: SWEET FOOTER CARD -->
+<section class="relative z-10 w-full pb-4">
+<div class="w-full rounded-3xl bg-surface-container p-space-md shadow-[0_12px_28px_rgba(244,172,183,0.3)] text-center flex flex-col items-center relative overflow-hidden">
+<!-- Decorative floral ribbon -->
+<div class="w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm mb-2">
+<span class="material-symbols-outlined text-[22px]">loyalty</span>
+</div>
+<p class="font-headline-sm italic text-headline-sm text-on-surface leading-relaxed max-w-sm">
+        “Cảm ơn em đã là một phần tuyệt vời nhất trong cuộc đời anh. Chúc em ngày 20/10 ngập tràn niềm vui, quà tặng và ngàn nụ hôn yêu thương! 💕”
+      </p>
+<div class="mt-3 flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<span class="font-label-md text-label-md uppercase tracking-wider font-bold">Forever With You • 22.11</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript logic -->
+<script>
+    (function() {
+      // Dynamic timer simulation
+      const hoursEl = document.getElementById('live-hours');
+      const minutesEl = document.getElementById('live-minutes');
+      const secondsEl = document.getElementById('live-seconds');
+      
+      setInterval(() => {
+        const now = new Date();
+        if (hoursEl) hoursEl.textContent = String(now.getHours()).padStart(2, '0');
+        if (minutesEl) minutesEl.textContent = String(now.getMinutes()).padStart(2, '0');
+        if (secondsEl) secondsEl.textContent = String(now.getSeconds()).padStart(2, '0');
+      }, 1000);
+
+      // Secret Lock Interactive Logic
+      let currentPin = [];
+      const correctPin = '2211';
+      const pinBoxes = [
+        document.getElementById('pin-0'),
+        document.getElementById('pin-1'),
+        document.getElementById('pin-2'),
+        document.getElementById('pin-3')
+      ];
+      const feedback = document.getElementById('lock-feedback');
+      const modal = document.getElementById('gift-modal');
+      const drawer = document.getElementById('gift-drawer-content');
+      const lockIcon = document.getElementById('lock-icon');
+
+      function updatePinUI() {
+        pinBoxes.forEach((box, idx) => {
+          if (box) {
+            box.textContent = currentPin[idx] !== undefined ? currentPin[idx] : '·';
+            if (currentPin[idx] !== undefined) {
+              box.classList.add('bg-primary-fixed', 'text-on-primary-fixed');
+              box.classList.remove('bg-surface-container-lowest');
+            } else {
+              box.classList.remove('bg-primary-fixed', 'text-on-primary-fixed');
+              box.classList.add('bg-surface-container-lowest');
+            }
+          }
+        });
+      }
+
+      function triggerUnlockSuccess() {
+        if (feedback) {
+          feedback.textContent = 'Mật mã chính xác! Chúc mừng em yêu 💖';
+          feedback.classList.remove('opacity-0', 'text-error');
+          feedback.classList.add('opacity-100', 'text-primary');
+        }
+        if (lockIcon) {
+          lockIcon.textContent = 'lock_open_right';
+          lockIcon.classList.add('text-secondary');
+        }
+        createHeartBurst();
+        setTimeout(openModal, 600);
+      }
+
+      function checkCode() {
+        if (currentPin.join('') === correctPin) {
+          triggerUnlockSuccess();
+        } else {
+          if (feedback) {
+            feedback.textContent = 'Chưa đúng rồi! Gợi ý là 22/11 em nhé 💕';
+            feedback.classList.remove('opacity-0', 'text-primary');
+            feedback.classList.add('opacity-100', 'text-error');
+          }
+          currentPin = [];
+          setTimeout(updatePinUI, 400);
+        }
+      }
+
+      // Keypad listeners
+      document.querySelectorAll('.keypad-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const val = btn.getAttribute('data-val');
+          const action = btn.getAttribute('data-action');
+
+          if (val && currentPin.length < 4) {
+            currentPin.push(val);
+            updatePinUI();
+            if (currentPin.length === 4) {
+              setTimeout(checkCode, 200);
+            }
+          } else if (action === 'backspace') {
+            currentPin.pop();
+            updatePinUI();
+            if (feedback) feedback.classList.add('opacity-0');
+          } else if (action === 'unlock') {
+            if (currentPin.length === 4) {
+              checkCode();
+            } else {
+              if (feedback) {
+                feedback.textContent = 'Vui lòng nhập đủ 4 số mật mã nhé!';
+                feedback.classList.remove('opacity-0');
+              }
+            }
+          }
+        });
+      });
+
+      // Quick Fill Button
+      const quickFillBtn = document.getElementById('quick-fill-btn');
+      if (quickFillBtn) {
+        quickFillBtn.addEventListener('click', () => {
+          currentPin = ['2', '2', '1', '1'];
+          updatePinUI();
+          triggerUnlockSuccess();
+        });
+      }
+
+      // Gift Modal Logic
+      function openModal() {
+        if (modal && drawer) {
+          modal.classList.remove('opacity-0', 'pointer-events-none');
+          drawer.classList.remove('translate-y-full');
+        }
+      }
+
+      function closeModal() {
+        if (modal && drawer) {
+          drawer.classList.add('translate-y-full');
+          setTimeout(() => {
+            modal.classList.add('opacity-0', 'pointer-events-none');
+          }, 200);
+        }
+      }
+
+      const closeBtn = document.getElementById('close-modal-btn');
+      if (closeBtn) closeBtn.addEventListener('click', closeModal);
+      if (modal) {
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) closeModal();
+        });
+      }
+
+      // Gift Coupon Selection
+      let selectedGift = null;
+      const coupons = document.querySelectorAll('.gift-coupon');
+      const claimBtn = document.getElementById('claim-gift-btn');
+      const giftAlert = document.getElementById('gift-alert-message');
+
+      coupons.forEach(coupon => {
+        coupon.addEventListener('click', () => {
+          coupons.forEach(c => {
+            c.classList.remove('bg-primary-fixed', 'shadow-md');
+            c.classList.add('bg-surface-container-lowest');
+            const check = c.querySelector('.gift-check');
+            if (check) {
+              check.textContent = 'radio_button_unchecked';
+              check.classList.remove('text-primary');
+              check.classList.add('text-outline');
+            }
+          });
+          coupon.classList.remove('bg-surface-container-lowest');
+          coupon.classList.add('bg-primary-fixed', 'shadow-md');
+          const check = coupon.querySelector('.gift-check');
+          if (check) {
+            check.textContent = 'check_circle';
+            check.classList.remove('text-outline');
+            check.classList.add('text-primary');
+          }
+          selectedGift = coupon.getAttribute('data-gift');
+          if (claimBtn) {
+            claimBtn.removeAttribute('disabled');
+            claimBtn.classList.remove('bg-outline/40', 'cursor-not-allowed');
+            claimBtn.classList.add('bg-gradient-to-r', 'from-primary', 'to-tertiary', 'text-on-primary', 'cursor-pointer');
+          }
+        });
+      });
+
+      if (claimBtn) {
+        claimBtn.addEventListener('click', () => {
+          if (giftAlert) {
+            giftAlert.classList.remove('hidden');
+            createHeartBurst();
+          }
+        });
+      }
+
+      // Heart burst / confetti micro-interaction
+      function createHeartBurst() {
+        const container = document.getElementById('ambient-petals-container');
+        if (!container) return;
+        for (let i = 0; i < 16; i++) {
+          const heart = document.createElement('div');
+          heart.className = 'absolute text-primary select-none pointer-events-none text-[20px] transition-all duration-1000';
+          heart.innerHTML = ['💖', '🌸', '✨', '💕', '🌷'][Math.floor(Math.random() * 5)];
+          heart.style.left = (Math.random() * 80 + 10) + '%';
+          heart.style.top = (window.scrollY + window.innerHeight * 0.4) + 'px';
+          container.appendChild(heart);
+
+          const destX = (Math.random() - 0.5) * 150;
+          const destY = -Math.random() * 200 - 50;
+
+          requestAnimationFrame(() => {
+            heart.style.transform = `translate(${destX}px, ${destY}px) scale(1.4)`;
+            heart.style.opacity = '0';
+          });
+
+          setTimeout(() => heart.remove(), 1200);
+        }
+      }
+    })();
+  </script>
+</div></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_-8px_24px_-4px_rgba(244,172,183,0.3)]" data-active-classes="text-primary font-bold"><div class="flex justify-around items-center h-16 px-1"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] h-12 transition-all text-primary font-bold" data-path="thu-tinh" href="#"><span class="material-symbols-outlined text-[22px]">mark_email_read</span><span class="font-label-sm text-label-sm mt-0.5">Thư Tình</span></a><a class="flex flex-col items-center justify-center min-w-[56px] h-12 text-on-surface-variant transition-all hover:text-primary" data-path="dem-ngay" href="#"><span class="material-symbols-outlined text-[22px]">cloud_download</span><span class="font-label-sm text-label-sm mt-0.5">Đếm Ngày</span></a><a class="flex flex-col items-center justify-center min-w-[56px] h-12 text-on-surface-variant transition-all hover:text-primary" data-path="o-khoa" href="#"><span class="material-symbols-outlined text-[22px]">lock_open_right</span><span class="font-label-sm text-label-sm mt-0.5">Ổ Khóa</span></a><a class="flex flex-col items-center justify-center min-w-[56px] h-12 text-on-surface-variant transition-all hover:text-primary" data-path="album-anh" href="#"><span class="material-symbols-outlined text-[22px]">photo_library</span><span class="font-label-sm text-label-sm mt-0.5">Album</span></a><a class="flex flex-col items-center justify-center min-w-[56px] h-12 text-on-surface-variant transition-all hover:text-primary" data-path="kho-qua-tang" href="#"><span class="material-symbols-outlined text-[22px]">featured_seasonal_and_gifts</span><span class="font-label-sm text-label-sm mt-0.5">Quà Tặng</span></a></div></nav>
+
+</body></html>
